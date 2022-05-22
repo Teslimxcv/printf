@@ -5,6 +5,7 @@
 
 int _putchar(char c);
 void _puts(char *str);
+void print_number(va_list ap, int base, int sign, int caps);
 int _strlen(char *s);
 int _printf(const char *format, ...);
 char *convert_to(char representation[], unsigned int num, int base);
